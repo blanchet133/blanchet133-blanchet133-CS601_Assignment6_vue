@@ -1,8 +1,10 @@
 const images = require.context('./images', true, /\.jpg$/);
 
+const pic1 = require("./images/dog.jpg");
+
 const imageData = {
   dogList: [
-    { id: 1, src: images("./images/dog.jpg")},
+    { id: 1, src: pic1},
     { id: 2, src: images("./puppy.jpg") }
   ],
   townList: [
@@ -16,7 +18,7 @@ const imageData = {
   butterflyList: [
     { id: 1, src: images("./butterfly.jpg")},
     { id: 2, src: images("./Caterpillar.jpg") }
-  ],
+  ]
 }
 
 export default imageData;

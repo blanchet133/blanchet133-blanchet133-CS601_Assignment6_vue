@@ -30,6 +30,8 @@
   img {
     height: 200px;
     width: auto; 
+    padding: 10px;
   }
+
 </style>
 
