@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "@vue/cli-service": "^5.0.8",
     "vue": "^3.2.37"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   }
 }

@@ -1,14 +1,13 @@
 <template>
   <h2>Amazing Transformations!</h2>
   <section class="center">
-    <PreImage :imageList="imageData.imageList"/>
+    <PreImage :imageList="imageData.imageList" class="picture"/>
   </section>
-  <h2>Amazing Transformations!</h2>
 </template>
 
 <script>
-  import imageData from './data/imageData';
-  import PreImage from './PreImage.vue';
+  import imageData from './data/imageData.js';
+  import PreImage from './components/PreImages.vue';
 
   export default {
     name: 'App',
@@ -22,8 +21,12 @@
 </script>
 
 <style>
-  /* #app {
-
-  } */
+  .center {
+    display: flex;
+  }
+  img {
+    height: 200px;
+    width: auto; 
+  }
 </style>
 
