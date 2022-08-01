@@ -1,7 +1,10 @@
 <template>
   <h2>Amazing Transformations!</h2>
   <section class="center">
-    <PreImage :imageList="imageData.imageList" class="picture"/>
+    <PreImage :imageList="imageData.dogList" class="picture"/>
+    <PreImage :imageList="imageData.townList" class="picture"/>
+    <PreImage :imageList="imageData.damList" class="picture"/>
+    <PreImage :imageList="imageData.butterflyList" class="picture"/>
   </section>
 </template>
 
